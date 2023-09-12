@@ -1,0 +1,19 @@
+ h1 {
+    display: inline;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    background-color: red;
+} h1:before { 
+       content: ' ';
+       box-sizing: border-box;
+       position: absolute;
+       bottom:500px;
+       bottom:-2px;
+       width: 80px;
+       height: 3px;
+       background-color: #ff9800;
+       display:inline;
+   }
